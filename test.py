@@ -7,7 +7,7 @@ import os
 from pdf2image.exceptions import( PDFInfoNotInstalledError,PDFPageCountError, PDFSyntaxError )
 
 pytesseract.pytesseract.tesseract_cmd = r'X:\New folder'
-PDF_file = "D:\\Pega notes\\Pega academy IA1\\Ruesets.pdf"
+PDF_file = "C:\\Desktop\\sample.pdf"
   
 # Store all the pages of the PDF in a variable
 pages = convert_from_path(PDF_file, 500, poppler_path=r'C:\Users\Varssha\Downloads\poppler-0.68.0_x86\poppler-0.68.0\bin')
